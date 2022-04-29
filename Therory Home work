@@ -1,0 +1,7 @@
+explain why goroutines are preferred over threads.
+Goroutines are very similar to threads, the major difference between then are as follows
+1.	threads are managed by OS whereas goroutines are managed by go run time
+2.	threads stack of 1 mb on the other hand goroutines stack is 2kb which make them very list and faster compared to threads.
+3.	Threads are hardware depended on and goroutine are not hardware dependent.
+4.	Goroutines have channel which helps in communication, and this are absent in threads.
+5.	Goroutines have faster startup time then threads.
